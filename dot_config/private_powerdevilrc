@@ -1,15 +1,13 @@
 [AC][Display]
-DimDisplayIdleTimeoutSec=-1
-DimDisplayWhenIdle=false
+DimDisplayIdleTimeoutSec=600
+TurnOffDisplayIdleTimeoutSec=660
 TurnOffDisplayIdleTimeoutWhenLockedSec=20
 
 [AC][Performance]
 PowerProfile=performance
 
 [AC][SuspendAndShutdown]
-AutoSuspendAction=0
 PowerButtonAction=8
-SleepMode=2
 
 [Activities][fd85b5a4-ea54-41dc-af35-edb603374934]
 InhibitScreenManagement=false
