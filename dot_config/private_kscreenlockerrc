@@ -2,11 +2,9 @@
 Autolock=false
 Timeout=0
 
-[Greeter][LnF][General]
-alwaysShowClock=false
-showMediaControls=false
+[Greeter]
+WallpaperPlugin=org.kde.image
 
 [Greeter][Wallpaper][org.kde.image][General]
 Image=/home/yp/Pictures/wallpapers/walls-catppuccin-mocha/waterfall.png
-PreviewImage=/home/yp/Pictures/wallpapers/walls-catppuccin-mocha/waterfall.png
 SlidePaths=/usr/share/wallpapers/

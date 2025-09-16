@@ -124,15 +124,17 @@ History Items[$e]=file:$HOME/.local/share/chezmoi/,file:$HOME/.local/share/chez,
 Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x87\x00\x00\x04[\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 
 [General]
+ColorScheme=CatppuccinMochaFlamingo
 ColorSchemeHash=f1f9070f37b7fc13745de03b077f3a05647f7b6e
 UseSystemBell=true
+XftAntialias=true
 XftHintStyle=hintslight
-XftSubPixel=none
+XftSubPixel=rgb
 fixed=JetBrainsMono Nerd Font Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-font=Roboto,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-menuFont=Roboto,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-smallestReadableFont=Roboto,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-toolBarFont=Roboto,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+font=Adwaita Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=Adwaita Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=Adwaita Sans,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=Adwaita Sans,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [Icons]
 Theme=Papirus
@@ -168,7 +170,7 @@ MaximumRemoteSize=0
 [WM]
 activeBackground=30,30,46
 activeBlend=205,214,244
-activeFont=Roboto,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+activeFont=Adwaita Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 activeForeground=205,214,244
 inactiveBackground=17,17,27
 inactiveBlend=166,173,200

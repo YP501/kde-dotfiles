@@ -4,6 +4,11 @@
 [KFileDialog Settings]
 listViewIconSize=512
 
+[PlasmaTransientsConfig]
+PreloadWeight=0
+popupHeight=440
+popupWidth=440
+
 [PlasmaViews][Panel 131]
 panelOpacity=2
 
@@ -154,9 +159,9 @@ thickness=24
 
 [PlasmaViews][Panel 344]
 floating=1
-panelLengthMode=1
+panelLengthMode=0
 panelOpacity=2
-panelVisibility=2
+panelVisibility=0
 
 [PlasmaViews][Panel 344][Defaults]
 thickness=42
@@ -166,7 +171,7 @@ floating=1
 panelOpacity=2
 
 [PlasmaViews][Panel 357][Defaults]
-thickness=24
+thickness=32
 
 [PlasmaViews][Panel 383]
 floating=1
@@ -182,10 +187,11 @@ thickness=27
 
 [PlasmaViews][Panel 394]
 floating=1
-panelOpacity=2
+floatingApplets=1
+panelOpacity=1
 
 [PlasmaViews][Panel 394][Defaults]
-thickness=24
+thickness=32
 
 [PlasmaViews][Panel 408]
 floating=1
@@ -198,6 +204,23 @@ floating=1
 
 [PlasmaViews][Panel 409][Defaults]
 thickness=27
+
+[PlasmaViews][Panel 438]
+floating=1
+panelLengthMode=0
+panelOpacity=2
+panelVisibility=0
+
+[PlasmaViews][Panel 438][Defaults]
+thickness=42
+
+[PlasmaViews][Panel 442]
+floating=1
+floatingApplets=1
+panelOpacity=1
+
+[PlasmaViews][Panel 442][Defaults]
+thickness=32
 
 [PlasmaViews][Panel 56]
 floating=0
