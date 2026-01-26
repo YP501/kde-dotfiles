@@ -1,0 +1,12 @@
+[Daemon]
+LockGrace=0
+Timeout=6
+
+[Greeter][LnF][General]
+showMediaControls=false
+
+[Greeter][Wallpaper][org.kde.image][General]
+Color=30,30,46
+Image=file:///home/yp/Pictures/wallpapers/cat_leaves.png
+PreviewImage=file:///home/yp/Pictures/wallpapers/cat_leaves.png
+SlidePaths=/home/yp/.local/share/wallpapers/,/usr/share/wallpapers/
