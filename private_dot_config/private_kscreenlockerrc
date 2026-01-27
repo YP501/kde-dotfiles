@@ -7,6 +7,6 @@ showMediaControls=false
 
 [Greeter][Wallpaper][org.kde.image][General]
 Color=30,30,46
-Image=file:///home/yp/Pictures/wallpapers/cat_leaves.png
-PreviewImage=file:///home/yp/Pictures/wallpapers/cat_leaves.png
+Image=file:///home/yp/Pictures/wallpapers/cute-cat.png
+PreviewImage=file:///home/yp/Pictures/wallpapers/cute-cat.png
 SlidePaths=/home/yp/.local/share/wallpapers/,/usr/share/wallpapers/

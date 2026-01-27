@@ -20,12 +20,12 @@ DialogHeight=1363
 DialogWidth=2560
 
 [Containments][1][General]
-positions={"2560x1440":["1","23","desktop:/mocha_lavender.xml","0","1","desktop:/TODO.txt","0","0"]}
+positions={"2560x1440":["1","23","desktop:/TODO.txt","0","0"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
 Color=30,30,46
-Image=file:///home/yp/Pictures/wallpapers/cat_leaves.png
+Image=file:///home/yp/Pictures/wallpapers/cute-cat.png
 SlidePaths=/home/yp/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][2]
@@ -194,7 +194,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][27][Applets][32][Applets][48][Configuration]
-PreloadWeight=47
+PreloadWeight=62
 
 [Containments][27][Applets][32][Applets][51]
 immutability=1
@@ -269,7 +269,7 @@ widgets=true
 [Containments][27][Applets][58][Configuration][Miscellaneous]
 configMsg=false
 rulesMsg=false
-timestamp=1769464372689
+timestamp=1769541181019
 version=v2.9.6.1
 
 [Containments][27][Applets][58][Configuration][Upgrade]
@@ -498,4 +498,4 @@ use_24_hour_format=true
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/TODO.txt,0,5cf5c916-ed18-4c8b-bb40-c1c9832c583e,desktop:/mocha_lavender.xml,0,5cf5c916-ed18-4c8b-bb40-c1c9832c583e
+screenMapping=desktop:/TODO.txt,0,5cf5c916-ed18-4c8b-bb40-c1c9832c583e
