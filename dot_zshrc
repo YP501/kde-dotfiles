@@ -26,6 +26,7 @@ CASE_SENSITIVE="false"
 HYPHEN_INSENSITIVE="true"
 
 setopt globdots
+setopt extendedglob
 
 # Uncomment one of the following lines to change the auto-update behavior
 # zstyle ':omz:update' mode disabled  # disable automatic updates
@@ -146,8 +147,12 @@ alias la="eza $eza_base_options -a"
 alias lo="eza $eza_base_options -ao"
 alias lf="eza $eza_base_options -af"
 alias ld="eza $eza_base_options -aD"
+kwrite() {
+  flatpak run org.kde.kwrite "$@" &>/dev/null &!
+}
 
 # Exporting environment variables
+export PATH="$PATH:~/.dotnet/tools"
 export MANPAGER="sh -c 'awk '\''{ gsub(/\x1B\[[0-9;]*m/, \"\", \$0); gsub(/.\x08/, \"\", \$0); print }'\'' | bat -p -lman'" # Bat support for man
 export BAT_THEME="Catppuccin Mocha"
 export FZF_DEFAULT_OPTS=" \
@@ -157,6 +162,37 @@ export FZF_DEFAULT_OPTS=" \
 --color=marker:#b4befe,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8 \
 --color=selected-bg:#45475a \
 --multi"
+
+# Cleanup script voor microslop garbage files
+clean-dev() {
+  echo "Cleaning Microslop garbage..."
+
+  # Clean nuget caches
+  if command -v dotnet &> /dev/null; then
+    echo "Cleaning NuGet caches..."
+    dotnet nuget locals all --clear > /dev/null
+  fi
+
+  # Remove large temporary files
+  echo "Removing temporary debug symbols and caches..."
+  rm -rf ~/.local/share/Symbols
+  rm -rf ~/.local/share/RefSrcSymbols
+  rm -rf ~/.local/share/SymbolSourceSymbols
+
+  echo "Aigt we good sir"
+}
+
+# Clean cache except for ow2 shader cache and restore bat theme
+clean-cache() {
+  echo "Cleaning cache (keeping ow2)..."
+  rm -rf ~/.cache/^ow2
+
+  if command -v bat &> /dev/null; then
+    bat cache --build
+  fi
+
+  echo "Cache cleared & bat theme restored!"
+}
 
 # Init starship
 eval "$(starship init zsh)"
