@@ -119,7 +119,6 @@ ForegroundPositive=166, 227, 161
 ForegroundVisited=203, 166, 247
 
 [General]
-ColorScheme=CatppuccinMochaLavender
 ColorSchemeHash=375c7be532f0aed454f6829e29e2f17b18b4d1ca
 LastUsedCustomAccentColor=24,24,37
 UseSystemBell=true
@@ -132,12 +131,11 @@ menuFont=Readex Pro,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 smallestReadableFont=Readex Pro,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 toolBarFont=Readex Pro,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
-[Icons]
-Theme=Papirus-Dark
-
 [KDE]
 LookAndFeelPackage=Catppuccin-Mocha-Lavender
 ShowDeleteCommand=true
+contrast=4
+frameContrast=0.2
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -152,7 +150,7 @@ Show hidden files=true
 Sort by=Name
 Sort directories first=true
 Sort hidden files last=false
-Sort reversed=true
+Sort reversed=false
 Speedbar Width=226
 View Style=Simple
 

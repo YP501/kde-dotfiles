@@ -191,7 +191,10 @@ clean-cache() {
     bat cache --build
   fi
 
-  echo "Cache cleared & bat theme restored!"
+ kquitapp6 plasmashell 2>/dev/null || kilall plasmashell
+ setsid plasmashell >/dev/null 2>&1 &
+
+  echo "Cache cleared & bat theme + plasma session restored!"
 }
 
 # Init starship

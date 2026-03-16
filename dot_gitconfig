@@ -8,3 +8,8 @@
 	email = itzypboi@gmail.com
 [init]
 	defaultBranch = main
+[core]
+	editor = nano
+	autocrlf = input
+[push]
+	autoSetupRemote = true
