@@ -119,6 +119,7 @@ ForegroundPositive=166, 227, 161
 ForegroundVisited=203, 166, 247
 
 [General]
+ColorScheme=CatppuccinMochaLavender
 ColorSchemeHash=375c7be532f0aed454f6829e29e2f17b18b4d1ca
 LastUsedCustomAccentColor=24,24,37
 UseSystemBell=true
@@ -156,7 +157,8 @@ View Style=Simple
 
 [PreviewSettings]
 EnableRemoteFolderThumbnail=false
-MaximumRemoteSize=0
+MaximumRemoteSize=524288000
+MaximumSize=524288000
 
 [WM]
 activeBackground=30,30,46

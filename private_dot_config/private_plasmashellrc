@@ -1,11 +1,13 @@
 [PlasmaViews][Panel 27]
 floating=0
+panelOpacity=2
 
 [PlasmaViews][Panel 27][Defaults]
 thickness=40
 
 [PlasmaViews][Panel 98]
 floating=0
+panelOpacity=2
 
 [PlasmaViews][Panel 98][Defaults]
 thickness=40

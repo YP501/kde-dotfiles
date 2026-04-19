@@ -4,6 +4,9 @@ Seen=true
 [Applications][org.gnome.baobab]
 Seen=true
 
+[Applications][vivaldi-stable]
+Seen=true
+
 [DoNotDisturb]
 WhenFullscreen=false
 WhenScreenSharing=false

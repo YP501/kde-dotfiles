@@ -7,3 +7,6 @@ PowerProfile=performance
 
 [AC][SuspendAndShutdown]
 PowerButtonAction=8
+
+[Inhibitions]
+BlockedInhibitions=/app/discord/Discord:Electron

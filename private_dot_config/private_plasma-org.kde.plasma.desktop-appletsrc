@@ -16,19 +16,27 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][1][ConfigDialog]
-DialogHeight=1363
+DialogHeight=1368
 DialogWidth=2560
 
 [Containments][1][General]
-changedPositions={}
+changedPositions={"desktop:/Motivation_Classifier_Handleiding.html":["2560x1440","0","2"],"desktop:/main.py":["2560x1440","0","1"]}
 lastResolution=2560x1440
-positions={"2560x1440":["1","23","desktop:/azureTemplate.json","0","0"]}
-sortMode=-1
+positions={"2560x1440":["1","23","desktop:/Motivation_Classifier_Handleiding.html","0","2","desktop:/index.html","0","7","desktop:/modelling_prompt.txt","0","10","desktop:/ICT-B1.3 D&M Designing 1.pdf","0","9","desktop:/ICT-B1.3 LU1 2026 2 Projecteisen.pdf","0","4","desktop:/app.js","0","6","desktop:/ICT-B1.3 LU1 2026 3 Case A MRI-scan Behandeltraject.pdf","0","5","desktop:/Integratie Motivation Classifier in Brandwatch-BigQuery Pijplijn.pdf","0","8","desktop:/main.py","0","1","desktop:/ICT-B1.3 LU1 2026 1 Projectomschrijving.pdf","0","3"]}
 
 [Containments][1][Wallpaper][org.kde.image][General]
 Color=30,30,46
 Image=file:///home/yp/Pictures/wallpapers/cute-cat.png
 SlidePaths=/home/yp/.local/share/wallpapers/,/usr/share/wallpapers/
+
+[Containments][125]
+activityId=5cf5c916-ed18-4c8b-bb40-c1c9832c583e
+formfactor=0
+immutability=1
+lastScreen=2
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
 
 [Containments][2]
 ItemGeometries-2560x1440=
@@ -97,7 +105,7 @@ DialogWidth=720
 groupedTaskVisualization=1
 indicateAudioStreams=false
 interactiveMute=false
-launchers=applications:org.kde.dolphin.desktop,applications:com.vivaldi.Vivaldi.desktop,applications:steam.desktop,applications:com.discordapp.Discord.desktop,applications:com.spotify.Client.desktop,applications:org.blender.Blender.desktop,applications:com.obsproject.Studio.desktop,applications:org.kde.konsole.desktop,applications:jetbrains-rider.desktop,applications:jetbrains-datagrip.desktop,applications:net.lutris.Lutris.desktop,applications:io.github.shiftey.Desktop.desktop,applications:md.obsidian.Obsidian.desktop,applications:rest.insomnia.Insomnia.desktop
+launchers=applications:org.kde.dolphin.desktop,applications:vivaldi-stable.desktop,applications:steam.desktop,applications:com.discordapp.Discord.desktop,applications:com.spotify.Client.desktop,applications:org.blender.Blender.desktop,applications:com.obsproject.Studio.desktop,applications:org.kde.konsole.desktop,applications:jetbrains-rider.desktop,applications:jetbrains-datagrip.desktop,applications:net.lutris.Lutris.desktop,applications:io.github.shiftey.Desktop.desktop,applications:md.obsidian.Obsidian.desktop,applications:rest.insomnia.Insomnia.desktop
 tooltipControls=false
 
 [Containments][27][Applets][32]
@@ -222,8 +230,8 @@ immutability=1
 plugin=com.github.exequtic.apdatifier
 
 [Containments][27][Applets][58][Configuration]
-popupHeight=289
-popupWidth=432
+popupHeight=293
+popupWidth=436
 
 [Containments][27][Applets][58][Configuration][Appearance]
 busyIndicator=pulse
@@ -248,7 +256,7 @@ widgets=true
 [Containments][27][Applets][58][Configuration][Miscellaneous]
 configMsg=false
 rulesMsg=false
-timestamp=1773655628478
+timestamp=1776614957036
 version=v2.9.8
 
 [Containments][27][Applets][58][Configuration][Upgrade]
@@ -258,27 +266,12 @@ termFont=true
 terminal=/usr/bin/konsole
 wrapper=paru
 
-[Containments][27][Applets][63]
-immutability=1
-plugin=org.kde.plasma.ginti
-
-[Containments][27][Applets][63][Configuration]
-popupHeight=433
-popupWidth=432
-
-[Containments][27][Applets][63][Configuration][ConfigDialog]
-DialogHeight=1363
-DialogWidth=2560
-
-[Containments][27][Applets][63][Configuration][General]
-spacingFactor=3.1
-
 [Containments][27][Applets][69]
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
 [Containments][27][General]
-AppletOrder=58;63;123;69;30;53;32;49
+AppletOrder=58;123;69;30;53;32;49
 
 [Containments][98]
 activityId=
@@ -341,6 +334,10 @@ plugin=org.kde.plasma.brightness
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
+[Containments][98][Applets][100][Applets][137]
+immutability=1
+plugin=org.kde.plasma.battery
+
 [Containments][98][Applets][100][Applets][33][Configuration]
 PreloadWeight=42
 
@@ -370,8 +367,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][98][Applets][100][General]
-extraItems=org.kde.plasma.notifications,org.kde.plasma.brightness,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement
-hiddenItems=plasmashell_microphone,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,xdg-desktop-portal-kde,org.kde.plasma.networkmanagement
+extraItems=org.kde.plasma.notifications,org.kde.plasma.brightness,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.battery
+hiddenItems=plasmashell_microphone,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,xdg-desktop-portal-kde,org.kde.plasma.networkmanagement,org.kde.plasma.battery
 knownItems=org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.volume
 
 [Containments][98][Applets][117]
@@ -379,7 +376,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][98][Applets][117][Configuration]
-popupHeight=451
+popupHeight=455
 popupWidth=560
 
 [Containments][98][Applets][117][Configuration][Appearance]
@@ -409,8 +406,8 @@ immutability=1
 plugin=plasmusic-toolbar
 
 [Containments][98][Applets][122][Configuration]
-popupHeight=498
-popupWidth=320
+popupHeight=467
+popupWidth=300
 
 [Containments][98][Applets][122][Configuration][ConfigDialog]
 DialogHeight=540
@@ -442,7 +439,7 @@ DialogWidth=720
 groupedTaskVisualization=1
 indicateAudioStreams=false
 interactiveMute=false
-launchers=applications:org.kde.dolphin.desktop,applications:com.vivaldi.Vivaldi.desktop,applications:steam.desktop,applications:com.discordapp.Discord.desktop,applications:com.spotify.Client.desktop,applications:org.blender.Blender.desktop,applications:com.obsproject.Studio.desktop,applications:org.kde.konsole.desktop,applications:jetbrains-rider.desktop,applications:jetbrains-datagrip.desktop,applications:net.lutris.Lutris.desktop,applications:io.github.shiftey.Desktop.desktop,applications:md.obsidian.Obsidian.desktop,applications:rest.insomnia.Insomnia.desktop
+launchers=applications:org.kde.dolphin.desktop,applications:vivaldi-stable.desktop,applications:steam.desktop,applications:com.discordapp.Discord.desktop,applications:com.spotify.Client.desktop,applications:org.blender.Blender.desktop,applications:com.obsproject.Studio.desktop,applications:org.kde.konsole.desktop,applications:jetbrains-rider.desktop,applications:jetbrains-datagrip.desktop,applications:net.lutris.Lutris.desktop,applications:io.github.shiftey.Desktop.desktop,applications:md.obsidian.Obsidian.desktop,applications:rest.insomnia.Insomnia.desktop
 tooltipControls=false
 
 [Containments][98][General]
@@ -458,4 +455,4 @@ use_24_hour_format=true
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/TODO.txt,0,5cf5c916-ed18-4c8b-bb40-c1c9832c583e,desktop:/azureTemplate.json,0,5cf5c916-ed18-4c8b-bb40-c1c9832c583e
+screenMapping=desktop:/TODO.txt,0,5cf5c916-ed18-4c8b-bb40-c1c9832c583e

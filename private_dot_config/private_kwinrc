@@ -26,9 +26,6 @@ MoveFactor=25
 Stiffness=1
 
 [NightColor]
-LatitudeFixed=51.38984971374045
-LongitudeFixed=4.1288768796992485
-Mode=Location
 NightTemperature=4000
 
 [Plugins]
@@ -45,10 +42,16 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][00f5bd33-1cd3-4fc9-bcc0-c2fa0fb3f934][c5a3b6aa-f1b5-406f-a8de-a95ea591f8e7]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][0daa8da3-52a3-5c75-9c5d-0456fa96f091]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][1109c857-b04f-497b-993d-7d445080a286][4a2f2e7b-7afa-44c0-a77c-10863dac4cc3]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][1109c857-b04f-497b-993d-7d445080a286][c5a3b6aa-f1b5-406f-a8de-a95ea591f8e7]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][1ad1c300-951d-5f5d-97ec-8375d61bd38e]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][2012deaf-2431-4ae6-8e22-44f5588dce04][4a2f2e7b-7afa-44c0-a77c-10863dac4cc3]
@@ -76,6 +79,10 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][733c3822-42f2-46e0-9a2e-8adf8b97dc35][b7a4a234-7dbc-4997-a462-abc307fbcb6f]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][733c3822-42f2-46e0-9a2e-8adf8b97dc35][c5a3b6aa-f1b5-406f-a8de-a95ea591f8e7]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -90,6 +97,10 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][779b89f0-66e4-43ad-9384-6046a8496711][4a2f2e7b-7afa-44c0-a77c-10863dac4cc3]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][779b89f0-66e4-43ad-9384-6046a8496711][b7a4a234-7dbc-4997-a462-abc307fbcb6f]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -110,6 +121,10 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][85c394bc-1c6a-46e2-aa16-e1bc594195c5][4a2f2e7b-7afa-44c0-a77c-10863dac4cc3]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][85c394bc-1c6a-46e2-aa16-e1bc594195c5][b7a4a234-7dbc-4997-a462-abc307fbcb6f]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -145,3 +160,4 @@ Scale=1
 ButtonsOnLeft=N
 ButtonsOnRight=IAX
 library=org.kde.kwin.aurorae.v2
+theme=__aurorae__svg__CatppuccinMocha-Classic
